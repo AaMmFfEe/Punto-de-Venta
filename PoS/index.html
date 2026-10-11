@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de PoS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/functions.js"></script>
+    <script src="js/modal.js"></script>
+</head>
+<body>
+<!-- Imágen en la esquina superior izquierda -->
+ <img src="./img/logo.png"  class="logo">
+
+ <!-- Imágen en la esquina superior derecha -->
+ <img src="./img/chiikawa.png"  class="logo2">
+
+ <!-- Título principal -->
+  <div class="contenido">
+    <div>
+        <h1 class="titulo"> OXXO Siempre cerca de ti </h1>
+        <h2 class="subtitulo"> No es bueno pero es barato </h2>
+    </div>
+  </div>
+
+    <!--Area principal en blanco donde se muestran los productos-->
+    <div class="contenedor">
+        <table id="carrito">
+            <tr>
+                <th class="cantidad">Cantidad</th>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Total</th>
+                <tbody id="cuerpo"></tbody>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Único input en todo el sistema -->
+    <input type="text" id="codigo_producto" class="claseInput" onkeydown="buscarProducto(event)">
+
+    <!-- Botones tipo OXXO -->
+    <div class="contenedor2">
+        <input type="button" id="boton1" class="claseBoton" onclick="cancelarVenta(event)">
+        <input type="button" id="boton2" class="claseBoton" onclick="saldoCamion(event)">
+        <input type="button" id="boton3" class="claseBoton" onclick="transferencia()">
+        <input type="button" id="boton4" class="claseBoton" onclick="abrirModal()">
+        <input type="button" id="boton5" class="claseBoton" onclick="transferencia()">
+        <div id="feedback" class="feedback"></div>
+        <div class="total">
+            <h1 id="total"> $0.00 </h1>
+        </div>
+    </div>
+
+     <div id="modal" class="modal">
+        <div class="contenido-modal">
+            <h2>Selecciona un saldo para tu telefono</h2>
+            <img src="./img/recarga50.png" style="height: 10%; width: 10%;" onclick="saldo50()"/>
+            <img src="./img/recarga100.png" style="height: 10%; width: 10%;" onclick="saldo100()"/>
+            <img src="./img/recarga200.png" style="height: 10%; width: 10%;" onclick="saldo200()"/>
+            <img src="./img/recarga500.png" style="height: 10%; width: 10%;" onclick="saldo500()"/>
+            <br>
+            <br>
+            <button onclick="cerrarModal()">cerrar</button>        
+        </div>
+    </div>
+
+</body>
+</html>

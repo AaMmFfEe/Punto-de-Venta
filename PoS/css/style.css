@@ -1,0 +1,140 @@
+.logo{
+    width: 100%; 
+    max-width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+    position: absolute; 
+    top: -100; 
+}
+
+.contenido{
+    text-align: center; 
+    align-items: center; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.titulo{
+    margin: 0; 
+    font-family: quesoFuente;
+    letter-spacing: 6px;
+    color: #E51673;
+}
+
+.subtitulo{
+    margin: 0; 
+    font-family: quesoFuente;
+    letter-spacing: 4px;
+    color: #FC6DAB;
+}
+
+.logo2{
+    width: 100%; 
+    max-width: 75px; 
+    height: auto; 
+    margin-left: 1440px; 
+    position: absolute; 
+    top: 0; 
+}
+
+.contenedor{
+    font-size: x-large;
+    height: 60vh;
+    max-height: 60vh;
+    overflow-y: auto;
+    border: 1px solid #000000;
+    background-color: #FCDDEE;
+    margin-top: 10px;
+    font-family: quesoFuente;
+    letter-spacing: 4px;
+    color: #E51673;
+    border-color: #FC6DAB;
+}
+
+#carrito{
+    max-height: 50%;
+    width: 100%;
+    font-size: larger;
+}
+
+.cantidad{
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+}
+
+#cuerpo{
+    max-height: 10%;
+    width: 100%;
+    font-size: larger;
+    color: #FC6DAB;
+}
+
+.claseInput{
+    font-size: x-large;
+    width: calc(100% - 8px);
+    font-family: quesoFuente;
+    letter-spacing: 4px;
+}
+
+.contenedor2{
+    display: flex;
+    align-items: center;
+}
+
+.claseBoton{
+    height: 15vh;
+    width: 28dvh;
+    cursor: pointer;
+    border: 0;
+    background-color: #F8C8E3;
+    margin: 10px;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+#boton1{
+    background-image: url(../img/1.png);
+}
+
+#boton2{
+    background-image: url(../img/2.png);
+}
+
+#boton3{
+    background-image: url(../img/3.png);
+}
+
+#boton4{
+    background-image: url(../img/4.png);
+}
+
+#boton5{
+    background-image: url(../img/5.png);
+}
+
+.feedback{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #E51673;
+}
+
+.total{
+    display: flex;
+    border: 2px solid #FC6DAB;
+    height: 5dvw;
+    width: 30%;
+    margin-left: auto;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    font-family: quesoFuente;
+}
+
+@font-face {
+  font-family: quesoFuente; /* set name */
+  src: url(../../../../APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/ROMANTIC.TTF);
+}
+
