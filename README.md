@@ -19,6 +19,8 @@
 
 ## Capturas de pantalla
 <img width="1920" height="1096" alt="Screenshot (1593)" src="https://github.com/user-attachments/assets/b8e53feb-229c-4255-9507-bd3f8c924a7e" />
+<img width="1920" height="994" alt="Screenshot (1595)" src="https://github.com/user-attachments/assets/a8b0fe71-6782-4d78-b521-460abf4f83ed" />
+
 
 
 
