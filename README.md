@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="3222" height="215" alt="ezgif-359bae710ef0ed" src="https://github.com/user-attachments/assets/2c988d98-9bab-4002-815c-2f545252882b"/>
+  <img width="1183" height="152" alt="ezgif-1fdf33feac1244" src="https://github.com/user-attachments/assets/34bc2abb-bc08-44e7-8d7d-5a0bf8584c64" />
   <h1 align="center">Simulación: Punto de Venta</h1>
 </div>
 
@@ -27,6 +27,6 @@
 
 
 <div align="center">
-  <img width="3222" height="215" alt="ezgif-359bae710ef0ed" src="https://github.com/user-attachments/assets/2c988d98-9bab-4002-815c-2f545252882b"/>
+  <img width="1183" height="152" alt="ezgif-1fdf33feac1244" src="https://github.com/user-attachments/assets/5bf905af-5655-42bc-91ac-7c4e7d9855d4" />
 </div>
 
