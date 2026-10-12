@@ -18,7 +18,6 @@
 * Calcular el total de una compra de varios productos
 
 ## Capturas de pantalla
-<img width="995" height="675" alt="Screenshot (1558)" src="https://github.com/user-attachments/assets/538dd7fc-cbc3-4f1d-9906-5d4fa4f89815" />
 <img width="1920" height="1096" alt="Screenshot (1593)" src="https://github.com/user-attachments/assets/b8e53feb-229c-4255-9507-bd3f8c924a7e" />
 
 
