@@ -6,7 +6,7 @@
 ## Acerca de
 * Esta simulación de un punto de vista utiliza HTML y CSS para la creación de una interfaz gráfica en la que el usuario puede realizar diferentes tipos de acciones en el punto de venta de una tienda "Oxxo".
 * Desarrollado como trabajo en la clase _Simulación de Sistemas para Ingeniería_,
-* Creado bajo la tutoría del profesor José Humberto Abril García por los integrantes:
+* Creado bajo la tutoría del profesor José Humberto Abril García:
   * Alehtse María Félix Espejo
 
 ## Funcionalidades
